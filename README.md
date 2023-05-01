@@ -8,3 +8,5 @@ Repositorio com scripts em Python para a matéria de Cálculo numérico
 (X) Método de Newton-Rhapssen
 
 ( ) Método de Gauss Jacobi Algébrico
+
+(X) Método de Gauss Seidel Algébrico
