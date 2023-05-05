@@ -1,8 +1,9 @@
 def gaussSeidel():
-    n = 3   # number of equations
-    A = [[0] * (n+1) for i in range(n)]  # initialize matrix A with zeros
+
+    n = 3
+    A = [[0] * (n+1) for i in range(n)]
     for i in range(n):
-        eq = input(f"Enter coefficients of equation {i+1} separated by space: ")
+        eq = input(f"Insira os coeficientes da equacao {i+1} separados por espaço ")
         eq = eq.split()
         for j in range(n):
             A[i][j] = float(eq[j])
@@ -12,7 +13,7 @@ def gaussSeidel():
     count = 1
     eps = 0.01
 
-    print('\nCount\tx\ty\tz\n')
+    #print('\nCount\tx\ty\tz\n')
 
     flag = True
 
